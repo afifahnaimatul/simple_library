@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "c050ba08-9a9d-4118-9e97-0f8852af0805",
+		"name": "E-library",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getKategori",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-library.yasariniangkasaabd.sch.id/api/mobile/getKategori",
+					"protocol": "https",
+					"host": [
+						"e-library",
+						"yasariniangkasaabd",
+						"sch",
+						"id"
+					],
+					"path": [
+						"api",
+						"mobile",
+						"getKategori"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getListBuku",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-library.yasariniangkasaabd.sch.id/api/mobile/getListBuku?nama=&mode=&id=",
+					"protocol": "https",
+					"host": [
+						"e-library",
+						"yasariniangkasaabd",
+						"sch",
+						"id"
+					],
+					"path": [
+						"api",
+						"mobile",
+						"getListBuku"
+					],
+					"query": [
+						{
+							"key": "nama",
+							"value": "",
+							"description": "optional , untuk searching"
+						},
+						{
+							"key": "mode",
+							"value": ""
+						},
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDetailBuku",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-library.yasariniangkasaabd.sch.id/api/mobile/getDetailBuku?id=14",
+					"protocol": "https",
+					"host": [
+						"e-library",
+						"yasariniangkasaabd",
+						"sch",
+						"id"
+					],
+					"path": [
+						"api",
+						"mobile",
+						"getDetailBuku"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "14"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loginMobile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://e-library.yasariniangkasaabd.sch.id/api/mobile/loginMobile?nis=17171",
+					"protocol": "https",
+					"host": [
+						"e-library",
+						"yasariniangkasaabd",
+						"sch",
+						"id"
+					],
+					"path": [
+						"api",
+						"mobile",
+						"loginMobile"
+					],
+					"query": [
+						{
+							"key": "nis",
+							"value": "17171"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateRead",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://e-library.yasariniangkasaabd.sch.id/api/mobile/updateRead?id=14",
+					"protocol": "https",
+					"host": [
+						"e-library",
+						"yasariniangkasaabd",
+						"sch",
+						"id"
+					],
+					"path": [
+						"api",
+						"mobile",
+						"updateRead"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "14"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Dasboard Lib",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://103.56.148.173/api_elib/mobile/getDashboard",
+					"protocol": "http",
+					"host": [
+						"103",
+						"56",
+						"148",
+						"173"
+					],
+					"path": [
+						"api_elib",
+						"mobile",
+						"getDashboard"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
